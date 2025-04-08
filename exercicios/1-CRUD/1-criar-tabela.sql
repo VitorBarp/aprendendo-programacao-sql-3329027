@@ -1,9 +1,12 @@
 -- Crie uma nova tabela no banco de dados
-CREATE TABLE HorasOuvidas(
-id INTEGER PRIMARY KEY AUTOINCREMENT
-artista TEXT,
-tempo INTEGER
+CREATE TABLE NovaHorasOuvidas (
+    artista TEXT,
+    tempo INTEGER,
+    EstiloMusica TEXT
 );
+
+
+
 
 
  
